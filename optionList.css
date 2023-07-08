@@ -1,0 +1,195 @@
+body{
+        
+    /* background-repeat: no-repeat; */
+    font-family: 'Baloo Bhai';font-size: 22px;
+    color: coral;
+    height: 1500px;
+}
+
+.left{
+  /* border: 2px solid red; */
+  display:inline-block;
+  position: absolute;
+    top: -1px;
+    /* height: 21px; */
+    /* left: 15px; */
+    background-image: url("media/Logo.jpg");
+    
+    width : 50px;
+    height:50px;
+}
+.mid{
+    /* border: 2px solid black; */
+    display: block;
+    width:45%;
+    margin: 5px auto;
+    text-align:center;
+    
+}
+.right{
+    display:inline-block;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    
+    /* border: 2px solid blue; */
+}
+.navbar li{
+ 
+font-size: 25px;
+display:inline-block;   
+}
+.navbar li a{
+   color: #d9e7f7;
+   text-decoration: none; 
+   padding: 15px 15px;
+    
+}
+.navbar li a:hover{
+    text-decoration:underline;
+    color: rgb(49, 248, 9);
+}
+.left img{
+    width:100px;
+    height: 100px;
+}
+.left div{
+    text-align: center;
+    line-height: 1px;
+    
+}
+.btn{
+    font-family: 'Baloo Bhai';font-size: 22px;
+    margin: 0px 4px;
+    background-color: rgb(171, 197, 212);
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    color: red;
+}
+.class{
+    position: sticky;
+}
+.intro{
+    line-height: 1.56;
+    letter-spacing: 0.5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-size: 39px;
+    text-align: center;
+    /* font-size: larger; */
+    color: #0039ac;
+}
+.content{
+    line-height: 1.56;
+    letter-spacing: 0.5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 60px;
+    color: #373e4c;
+    margin-top:10px;
+    margin-left: 100px;
+    margin-right: 185px;
+    margin-bottom: 10px;
+    line-height:170%;
+    font-family: 'josefin_sanssemibold', sans-serif;
+    font-size: 21px !important;
+    text-align: justify;
+    /* border-left: 1px solid #2e3641 !important; */
+}
+.choose li {
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 15px;
+    /* border-radius: 15px; */
+    width: 27.5%;
+    height: 300px;
+    margin: 3px;
+    text-align: right;
+}
+.newContainer li {
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 15px;
+    /* border-radius: 15px; */
+    width: 41.5%;
+    height: 420px;
+    margin: 3px;
+
+}
+.choose{
+    margin-left: 161px;
+    margin-right: 10px;
+
+}
+.newContainer{
+    /* margin-left: 161px;
+    margin-right: 10px; */
+
+}
+.contaier{
+    display: flex;
+    /* height: 150px;
+    width: 40%; */
+   
+}
+.items{
+    font-size: 100px;
+    width: 200px;
+    height: 600px;
+    margin: 10px;
+    padding-left: 90px;
+}
+
+.newContainer li{
+    text-decoration: none;
+    
+}
+.house{
+    background-image: url("https://cdn.dribbble.com/users/3692521/screenshots/15306311/media/1db3398bf403a822572fd30e3ad8b57c.png");
+}
+.choose li a{
+    text-decoration: none;
+    
+}
+.images img{
+border-radius: 15px;
+height: 100%;
+width: 100%;
+}
+
+
+.house{
+ background-image: url("https://cdn.dribbble.com/users/3692521/screenshots/15306311/media/1db3398bf403a822572fd30e3ad8b57c.png");
+    max-width: 100%;
+    height: 300px;
+   /* https://cdn.dribbble.com/users/3692521/screenshots/15306311/media/1db3398bf403a822572fd30e3ad8b57c.png */
+}
+.nature{
+    margin-left: 80px;
+    margin-right: 80px;
+   display: inline-block;
+   
+    height: 501px;
+    font-family: cursive;font-size: 82px;
+    text-align: center;
+    
+}
+.nature img{
+    height: 100%;
+    width:61%;
+    padding-left: 600px;
+}
+.head{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+     margin-left: 111px;
+    margin-right: 251px;
+    border-bottom: 1px solid #2e3641 !important;
+}
